@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(to right,purple,pink);
+  font-family:"Courier New";
+}
+
+
+button{
+  cursor:pointer;
+}
