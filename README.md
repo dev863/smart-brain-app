@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+#Smart Brain App
+This app allows the user to register if the user in new to the app or it allows the users to login with username and password.
+User can enter any url of an image , the app detects the face in the image.
+The number of entries made by the user is displayed along with the name of the user.
+Users data is stored in a database.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+I've used React for front end , Node.js for backend and Postgre SQL for the database.
+For face recognition I've used clarifai's machine learning api.
 
-In the project directory, you can run:
+Register Page:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/80db0706-b328-4cb3-b11f-734e3bd3a558)
+User enters details:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/3bf8777d-0170-429c-a86a-82584922715d)
+Home page with user details:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/29ba0549-6f7f-43c9-ac6f-2699e2e6ee96)
+User enters url of an image:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/ef630f5f-f95a-4176-b64c-f544819c9b58)
+Image is displayed with the detected face and updated entry count:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/dbb0c53d-cfb9-4d5b-836b-913c2020c173)
+Login Page after registeration:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/0bb6a0c6-0e38-48a2-95c4-a9bcc65d00ad)
+User entry is updated if user enter another url:
+![image](https://github.com/dev863/smart-brain-app/assets/110013771/61169a1a-dd42-440d-ae8d-0bef58b8776d)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
